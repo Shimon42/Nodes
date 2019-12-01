@@ -188,8 +188,8 @@ var Node = {
             randY = rand(-movement, movement, true, 1);
         
         this.movingTo.x = this.x + randX;
-        this.movingSpeed.x = (this.movingTo.x - this.x);
-        this.movingSpeed.y = (this.movingTo.y - this.y);
+        this.movingSpeed.x = 1;
+        this.movingSpeed.y = 1;
 
         this.movingTo.y = this.y + randY;
         this.movingTo.z = this.z + randZ;
